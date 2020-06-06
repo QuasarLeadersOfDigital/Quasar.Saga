@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{242AD18D-CCD8-40B5-AC3D-F75889FE0052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Saga.Worker", "src\Quasar.Saga.Worker\Quasar.Saga.Worker.csproj", "{0E471E6D-51F5-47DF-AE00-7011CCCCC571}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{4AF0B6CA-6882-4D41-BCA8-253321B5B3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Saga.Messages", "src\Quasar.Saga.Messages\Quasar.Saga.Messages.csproj", "{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E471E6D-51F5-47DF-AE00-7011CCCCC571} = {242AD18D-CCD8-40B5-AC3D-F75889FE0052}
+		{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5} = {242AD18D-CCD8-40B5-AC3D-F75889FE0052}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF0B6CA-6882-4D41-BCA8-253321B5B3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF0B6CA-6882-4D41-BCA8-253321B5B3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E471E6D-51F5-47DF-AE00-7011CCCCC571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E471E6D-51F5-47DF-AE00-7011CCCCC571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E471E6D-51F5-47DF-AE00-7011CCCCC571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E471E6D-51F5-47DF-AE00-7011CCCCC571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9CD4EC-70E6-484B-BE5C-5DFEBC2C8FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
